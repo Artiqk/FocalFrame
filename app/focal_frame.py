@@ -10,8 +10,6 @@ class MainWindow(QtWidgets.QMainWindow):
         """Initialize the main window and set up the UI."""
         super().__init__()
 
-        self.setWindowTitle("Focal Frame")
-
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
