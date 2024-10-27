@@ -102,7 +102,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"FocalFrame", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Focale (mm)", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"Capteur (mm)", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Distance (m)", None))
