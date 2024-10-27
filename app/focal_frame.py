@@ -13,7 +13,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-        self.ui.tableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)  # Disable editing
+        self.ui.tableWidget.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         self.ui.tableWidget.setSelectionMode(QtWidgets.QAbstractItemView.NoSelection)
         self.ui.tableWidget.horizontalHeader().setSectionsClickable(False)
         self.ui.tableWidget.verticalHeader().setSectionsClickable(False) 
